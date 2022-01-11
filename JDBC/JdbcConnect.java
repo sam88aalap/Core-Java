@@ -12,7 +12,7 @@ public class JdbcConnect {
 			//2. establishing connection
 			//Connection URL, username, password
 			
-			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb","root","thanos");
+			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb","root","root");
 			System.out.println("Connected");
 		}catch(ClassNotFoundException | SQLException e) {
 			e.printStackTrace();
